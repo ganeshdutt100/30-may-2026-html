@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <!-- legend, fieldset -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Enter your name : </label>
+            <input type="text" placeholder="Enter your name" required> <br> <br>
+            <label>Enter your lastName : </label>
+            <input type="text" value="Dutt"> <br> <br>
+            <label>Enter your email : </label>
+            <input type="email" placeholder="Enter your email">
+            <br> <br>
+            <label>Enter your password : </label>
+            <input type="password" placeholder="Enter your password">
+            <br> <br>
+            <label>Enter your number : </label>
+            <input type="number" placeholder="Enter your number">
+            <br> <br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend> Information</legend>
+            <label>Gender : </label>
+            <input type="radio" value="male" name="gender">
+            <label>Male</label>
+            <input type="radio" value="female" name="gender">
+            <label>Female</label>
+            <br> <br>
+
+
+            <label>skills : </label>
+            <input type="checkbox" value="HTML" name="skills">
+            <label>HTML</label>
+            <input type="checkbox" value="CSS" name="skills">
+            <label>CSS</label>
+            <input type="checkbox" value="JavaScript" name="skills">
+            <label>JavaScript</label>
+            <br> <br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label>color : </label>
+            <input type="color" name="color">
+            <br> <br>
+            <label>file : </label>
+            <input type="file" name="file">
+            <br> <br>
+
+            <label>Selected Option : </label>
+
+            <select>
+                <option value="option1">Mathura</option>
+                <option value="option2">Noida</option>
+                <option value="option3">Delhi</option>
+            </select>
+            <br> <br>
+            <label>DOB : </label>
+            <input type="date">
+            <input type="datetime-local">
+
+
+            <br> <br>
+
+            <label>Range : </label>
+            <input type="range" min="0" max="100">
+            <br> <br>
+            <label>Feedback : </label>
+            <textarea placeholder="Enter your message"></textarea>
+            <br> <br>
+
+
+            <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
